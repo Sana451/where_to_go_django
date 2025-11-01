@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     "maps.apps.MapsConfig",
 
     'django.contrib.gis',
+    'ckeditor',
 
     'django.contrib.admin',
     'django.contrib.auth',
