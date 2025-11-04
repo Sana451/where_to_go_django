@@ -5,4 +5,5 @@ from . import views
 urlpatterns = [
     path("", views.index, name="index"),
     path('places/<int:place_id>/', views.place_detail, name='place-detail'),
+    path('random-place/', views.RandomPlaceView.as_view(), name='random_place'),
 ]
